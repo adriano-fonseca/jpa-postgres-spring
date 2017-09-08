@@ -33,9 +33,9 @@ server:
 #Postgres persistence
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://localhost:5432/app
+    username: app
+    password: app
     platform: POSTGRESQL
     testWhileIdle: true
     validationQuery: SELECT 1
